@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/739f20f3-c923-4657-ab3d-e656239afbc4/resourceGroups/TilesDashboard/providers/Microsoft.Web/sites/mieszkanie",
+    "appService.deploySubpath": "build"
+}

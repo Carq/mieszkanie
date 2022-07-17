@@ -1,0 +1,63 @@
+@keyframes bounceIn {
+  0% {
+    opacity: scale(1);
+  }
+
+  60% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.card {
+  width: 305px;
+  height: 295px;
+
+  &.metric {
+    @extend %tile-image;
+    background-image: url(~images/metric-icon.png);
+  }
+
+  &.weather {
+    @extend %tile-image;
+    background-image: url(~images/weather-icon.png);
+  }
+
+  &__tile-graph {
+    height: 230px;
+  }
+
+  &.animate {
+    animation-name: bounceIn;
+    animation-duration: 2s;
+  }
+}
+
+.card-header {
+  text-align: center;
+}
+
+%tile-image {
+  background-position: right 10px bottom 8px;
+  background-size: 48px;
+  background-repeat: no-repeat;
+}
+
+.MuiCard-root {
+  display: flex;
+  flex-direction: column;
+  background-color: #424242;
+  background-image: none;
+}
+
+.MuiCardActions-root {
+  margin-top: auto;
+}
+
+.MuiCardHeader-action {
+  display: flex;
+  flex-direction: row;
+}

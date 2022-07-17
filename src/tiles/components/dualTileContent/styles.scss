@@ -1,0 +1,33 @@
+.dual-tile__content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.dual-tile__section {
+  display: flex;
+  padding-right: 20px;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: row;
+}
+
+.dual-tile__primary-unit {
+  margin-bottom: 6px;
+}
+
+.dual-tile__secondary-unit {
+  margin-bottom: 1px;
+}
+
+.dual-tile__primary-histogram {
+  height: 40px;
+  margin-bottom: 14px;
+  margin-right: 6px;
+}
+
+.dual-tile__secondary-histogram {
+  height: 27px;
+  margin-bottom: 7px;
+  margin-right: 6px;
+}
