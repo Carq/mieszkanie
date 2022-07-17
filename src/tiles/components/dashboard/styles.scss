@@ -1,0 +1,22 @@
+.dashboard {
+  margin: 18px;
+  border-radius: 8px;
+  padding: 0px 6px 12px;
+  background: rgb(36, 36, 36);
+}
+
+.accordion {
+  background: #373737;
+}
+
+.accordion-header {
+  background: #3f3f3f;
+  flex-flow: row-reverse;
+}
+
+.MuiAccordionSummary-content {
+  margin-left: 10px;
+}
+
+.accordion-details {
+}

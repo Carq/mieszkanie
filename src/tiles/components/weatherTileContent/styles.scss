@@ -1,0 +1,25 @@
+.weather-tile__content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.weather-tile__section {
+  display: flex;
+  padding-right: 20px;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: row;
+}
+
+.weather-tile__temperature-histogram {
+  height: 40px;
+  margin-bottom: 10px;
+  margin-right: 6px;
+}
+
+.weather-tile__humidity-histogram {
+  height: 27px;
+  margin-bottom: 5px;
+  margin-right: 6px;
+}
